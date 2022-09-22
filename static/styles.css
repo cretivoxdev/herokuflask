@@ -58,13 +58,8 @@
         background-color: #D6EEEE;  
       }
       #subimg {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border-image-repeat: round;
-        border-style: groove ;
-        border-width: 30px;
-        border-color: pink;
+        width: auto;
+        height: 100%;
       }
       .hide{
         visibility: hidden;

@@ -1,4 +1,6 @@
-
+function myfunction() {
+   alert("MAAP BANG BELOM BIKIN")
+}
 
 const rupiah = (number)=>{
     return new Intl.NumberFormat("id-ID", {
@@ -13,11 +15,8 @@ function Sept() {
    var rows2 =  parseInt(document.getElementById("value2").innerHTML);
    var rows3 =  parseInt(document.getElementById("value3").innerHTML);
    var rows4 =  parseInt(document.getElementById("value4").innerHTML);
-   var rows5 =  parseInt(document.getElementById("value5").innerHTML);
-   var rows6 =  parseInt(document.getElementById("value6").innerHTML);
-   var rows7 =  parseInt(document.getElementById("value7").innerHTML);
-   console.log(rows+rows2+rows3+rows4+rows5+rows6+rows7)
-   var Total = rows+rows2+rows3+rows4+rows5+rows6+rows7
+   console.log(rows+rows2+rows3+rows4)
+   var Total = rows+rows2+rows3+rows4
    return rupiah(Total);    
 };
 
